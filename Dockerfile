@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/SL-Alpha-X-Team/Alpha-X-WA-Bot /root/WhatsAsenaDuplicated
+RUN git clone https://github.com/HYPERBROX/Alpha-X-WA-Bot-Installer /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
 RUN git clone https://github.com/SL-Alpha-X-Team/Alpha-X-WA-Bot-Installer
 ENV TZ=Asia/Colombo
